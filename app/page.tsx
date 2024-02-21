@@ -60,7 +60,7 @@ export default function Home() {
   return (
     <main className="flex flex-col">
       <Header />
-      <div className="flex flex-row mt-20 gap-x-10">
+      <div className="flex flex-col mt-20 gap-x-10">
         {/* Actions */}
         <div className="flex flex-col w-full">
           <Assistant />

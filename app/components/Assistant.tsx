@@ -107,8 +107,8 @@ function Assistant() {
   };
 
   return (
-    <div className="flex flex-col mb-8">
-      <h1 className="text-4xl font-semibold mb-4">Assistant</h1>
+    <div className="flex flex-col mb-4">
+      <h1 className="text-lg font-semibold">Assistant</h1>
       <div className="flex flex-row gap-x-4 w-full">
         <Button onClick={handleCreate}>
           {creating ? "Creating..." : "Create"}
