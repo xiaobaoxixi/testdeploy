@@ -1,9 +1,10 @@
 "use client";
 
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import Assistant from "./components/Assistant";
 import AssistantFile from "./components/AssistantFile";
 import Header from "./components/Header";
+import Blog from "./components/Blog";
 import { useAtom } from "jotai";
 import {
   assistantAtom,
@@ -19,6 +20,7 @@ import Run from "./components/Run";
 import ChatContainer from "./components/ChatContainer";
 
 export default function Home() {
+  const [mode, setMode] = useState('chat with you'); 
   // Atom State
   const [, setAssistant] = useAtom(assistantAtom);
   const [, setFile] = useAtom(fileAtom);
@@ -59,20 +61,28 @@ export default function Home() {
 
   return (
     <main className="flex flex-col">
-      <Header />
-      <div className="flex flex-col mt-20 gap-x-10">
-        {/* Actions */}
-        <div className="flex flex-col w-full">
-          <Assistant />
-          <AssistantFile />
-          <Thread />
-          <Run />
+      <button className="mode-toggle" onClick={() => setMode(mode === 'choose and read' ? 'chat with you' : 'choose and read')}>
+        I'd rather {mode}
+      </button>
+      {mode !== 'choose and read' ? (
+        <Blog />
+        ) : (
+       <div>
+          <Header />
+          <div className="flex flex-col mt-20 gap-x-10">
+            <div className="flex flex-col w-full">
+              <Assistant />
+              <AssistantFile />
+              <Thread />
+              <Run />
+            </div>
+            <div className="w-full">
+              <ChatContainer />
+            </div>
+          </div>
         </div>
-        {/* Chat */}
-        <div className="w-full">
-          <ChatContainer />
-        </div>
-      </div>
+      )}
+      <p></p>
     </main>
   );
 }

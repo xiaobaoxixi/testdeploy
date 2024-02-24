@@ -33,6 +33,8 @@
     --ring: 240 10% 3.9%;
 
     --radius: 0.5rem;
+
+    --main-color:#474e85;
   }
 }
 
@@ -42,5 +44,8 @@
   }
   body {
     @apply bg-background text-foreground;
+    color:var(--main-color);
+    .note-item {margin:20px 0 20px; }
+    .mode-toggle {background-color:var(--main-color); color:white; height:48px; border-radius: 30px; margin: 30px 0;}
   }
 }

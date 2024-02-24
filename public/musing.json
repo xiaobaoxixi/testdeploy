@@ -1,0 +1,435 @@
+[
+    {
+      "nr": "1",
+      "name": "is Math invented?",
+      "tag": ["book", "thought"],
+      "related_url": ["https://www.amazon.com/Philosophy-Science-Very-Short-Introduction/dp/0198745583"],
+      "related_material": ["Philosophy of Science"],
+      "img": "images/philosophy_of_science_522.jpg",
+      "notes": [
+        "... ....... ● ● ● ....... ● ● ● ... ....... ... .......  ● ● ● ... ....... ● ● ● ....... ● ● ● ... ....... ... .......  ● ● ● ... ....... ● ● ● ....... ● ● ● ... ....... ... .......  ● ● ● ... ....... ● ● ● ....... ● ● ● ... ....... ... .......  ● ● ●  ● ● ● ... ....... ... .......  ● ● ● ... ....... ● ● ● ....... ● ● ● ... ....... ... .......  ● ● ● ... ....... ● ● ● ....... ● ● ● ... ....... ... .......  ● ● ● . ... .......  ● ● ● ... ....... ● ● ● ....... ● ● ● ... ....... ... .......  ● ● ● ... ....... ● ● ● ....... ● ● ● ... ....... ... .......  ● ● ● ... ....... ● ● ● ....... ● ● ● ... ....... ... .......  ● ● ●  ● ● ● ... ....... ... .......  ● ● ● ... ....... ● ● ● ....... ● ● ● ... ....... ... .......  ● ● ● ... ....... ● ● ● ....... ● ● ● ... ....... ... .......  ● ● ● ● ● ● ... ....... ● ● ● ....... ● ● ● ... ....... ... .......  ● ● ●  ● ● ● ... ....... ... .......  ● ● ● ... ....... ● ● ● ....... ● ● ● ... ....... ... .......  ● ● ● ... ....... ● ● ● ....... ● ● ● ... ....... ... .......  ● ● ● . ... .......  ● ● ● ... ....... ● ● ● ....... ● ● ● ... ....... ... .......  ● ● ● ... ....... ● ● ● ....... ● ● ● ... ....... ... .......  ● ● ● ... ....... ● ● ● ....... ● ● ● ... ....... ... .......  ● ● ●  ● ● ● ... ....... ... .......  ● ● ● ... ....... ● ● ● ....... ● ● ● ... ....... ... .......  ● ● ● ... ....... ● ● ● ....... ● ● ● ... ....... ... .......  ● ● ●   ● ● ● ● ● ● ... ....... ● ● ● ....... ● ● ● ... ....... ... .......  ● ● ●  ● ● ● ... ....... ... .......  ● ● ● ... ....... ● ● ● ....... ● ● ● ... ....... ... .......  ● ● ● ... ....... ● ● ● ....... ● ● ● ... ....... ... .......  ● ● ● . ... .......  ● ● ● ... ....... ● ● ● ....... ● ● ● ... ....... ... .......  ● ● ● ... ....... ● ● ● ....... ● ● ● ... ....... ... .......  ● ● ● ... ....... ● ● ● ....... ● ● ● ... ....... ... .......  ● ● ●  ● ● ● ... ....... ... .......  ● ● ● ... ....... ● ● ● ....... ● ● ● ... ....... ... .......  ● ● ● ... ....... ● ● ● ....... ● ● ● ... ....... ... .......  ● ● ●   ● ● ● ● ● ● ... ....... ● ● ● ....... ● ● ● ... ....... ... .......  ● ● ●  ● ● ● ... ....... ... .......  ● ● ● ... ....... ● ● ● ....... ● ● ● ... ....... ... .......  ● ● ● ... ....... ● ● ● ....... ● ● ● ... ....... ... .......  ● ● ● . ... .......  ● ● ● ... ....... ● ● ● ....... ● ● ● ... ....... ... .......  ● ● ● ... ....... ● ● ● ....... ● ● ● ... ....... ... .......  ● ● ● ... ....... ● ● ● ....... ● ● ● ... ....... ... .......  ● ● ●  ● ● ● ... ....... ... .......  ● ● ● ... ....... ● ● ● ....... ● ● ● ... ....... ... .......  ● ● ● ... ....... ● ● ● ....... ● ● ● ... ....... ... .......  ● ● ●   ● ● ● ● ● ● ... ....... ● ● ● ....... ● ● ● ... ....... ... .......  ● ● ●  ● ● ● ... ....... ... .......  ● ● ● ... ....... ● ● ● ....... ● ● ● ... ....... ... .......  ● ● ● ... ....... ● ● ● ....... ● ● ● ... ....... ... .......  ● ● ● . ... .......  ● ● ● ... ....... ● ● ● ....... ● ● ● ... ....... ... .......  ● ● ● ... ....... ● ● ● ....... ● ● ● ... ....... ... .......  ● ● ● ... ....... ● ● ● ....... ● ● ● ... ....... ... .......  ● ● ●  ● ● ● ... ....... ... .......  ● ● ● ... ....... ● ● ● ....... ● ● ● ... ....... ... .......  ● ● ● ... ....... ● ● ● ....... ● ● ● ... ....... ... .......  ● ● ●   ● ● ● ● ● ● ... ....... ● ● ● ....... ● ● ● ... ....... ... .......  ● ● ●  ● ● ● ... ....... ... .......  ● ● ● ... ....... ● ● ● ....... ● ● ● ... ....... ... .......  ● ● ● ... ....... ● ● ● ....... ● ● ● ... ....... ... .......  ● ● ● . ... .......  ● ● ● ... ....... ● ● ● ....... ● ● ● ... ....... ... .......  ● ● ● ... ....... ● ● ● ....... ● ● ● ... ....... ... .......  ● ● ● ... ....... ● ● ● ....... ● ● ● ... ....... ... .......  ● ● ●  ● ● ● ... ....... ... .......  ● ● ● ... ....... ● ● ● ....... ● ● ● ... ....... ... .......  ● ● ● ... ....... ● ● ● ....... ● ● ● ... ....... ... .......  ● ● ●   ● ● ● ● ● ● ... ....... ● ● ● ....... ● ● ● ... ....... ... .......  ● ● ●  ● ● ● ... ....... ... .......  ● ● ● ... ....... ● ● ● ....... ● ● ● ... ....... ... .......  ● ● ● ... ....... ● ● ● ....... ● ● ● ... ....... ... .......  ● ● ● . ... .......  ● ● ● ... ....... ● ● ● ....... ● ● ● ... ....... ... .......  ● ● ● ... ....... ● ● ● ....... ● ● ● ... ....... ... .......  ● ● ● ... ....... ● ● ● ....... ● ● ● ... ....... ... .......  ● ● ●  ● ● ● ... ....... ... .......  ● ● ● ... ....... ● ● ● ....... ● ● ● ... ....... ... .......  ● ● ● ... ....... ● ● ● ....... ● ● ● ... ....... ... .......  ● ● ● "
+      ],
+      "icons": [""]
+    },
+    {
+        "nr": "2",
+        "name": "intelligence is intelligence, don't be a specist",
+        "tag": ["thought"],
+        "related_url": [],
+        "related_material": [""],
+        "img": "",
+        "notes": [
+          "..."
+        ],
+        "icons": [""]
+      },
+      {
+        "nr": "3",
+        "name": "you forgot they are weak",
+        "tag": ["thought"],
+        "related_url": [],
+        "related_material": [""],
+        "img": "",
+        "notes": [
+          "..."
+        ],
+        "icons": [""]
+      },
+      {
+        "nr": "4",
+        "name": "use only <div> to create animated characters",
+        "tag": ["code", "CSS", "animation"],
+        "related_url": [],
+        "related_material": [""],
+        "img": "",
+        "notes": [
+          "..."
+        ],
+        "icons": [""]
+      },
+    {
+        "nr": "5",
+        "name": "silly games",
+        "tag": ["code", "animation"],
+        "related_url": [],
+        "related_material": [""],
+        "img": "",
+        "notes": [
+          "..."
+        ],
+        "icons": [""]
+      },
+      {
+        "nr": "6",
+        "name": "math and svg, you don't need other software to create animations",
+        "tag": ["code", "animation"],
+        "related_url": [],
+        "related_material": [""],
+        "img": "",
+        "notes": [
+          "..."
+        ],
+        "icons": [""]
+      },
+      {
+        "nr": "7",
+        "name": "website navigation is dead to me",
+        "tag": ["thought", "AI"],
+        "related_url": [],
+        "related_material": [""],
+        "img": "",
+        "notes": [
+          "..."
+        ],
+        "icons": [""]
+      },
+      {
+        "nr": "8",
+        "name": "On 'on bullshit - Harry G. Frankfurt'",
+        "tag": ["thought","book"],
+        "related_url": [],
+        "related_material": [""],
+        "img": "",
+        "notes": [
+          "..."
+        ],
+        "icons": [""]
+      },
+      {
+        "nr": "9",
+        "name": "why there are silos? because we are too specialized in single product",
+        "tag": ["thought", "Analytics"],
+        "related_url": [],
+        "related_material": [""],
+        "img": "",
+        "notes": [
+          "..."
+        ],
+        "icons": [""]
+      },
+      {
+        "nr": "10",
+        "name": "software engineers are spoiled, now i know",
+        "tag": ["thought", "workplace"],
+        "related_url": [],
+        "related_material": [""],
+        "img": "",
+        "notes": [
+          "..."
+        ],
+        "icons": [""]
+      },
+      {
+        "nr": "11",
+        "name": "when to learn, when to speak",
+        "tag": ["thought", "leaning"],
+        "related_url": [],
+        "related_material": [""],
+        "img": "",
+        "notes": [
+          "..."
+        ],
+        "icons": [""]
+      },
+      {
+        "nr": "12",
+        "name": "are you going to community event to meet the introverts?",
+        "tag": ["thought"],
+        "related_url": [],
+        "related_material": [""],
+        "img": "",
+        "notes": [
+          "..."
+        ],
+        "icons": [""]
+      },
+      {
+        "nr": "13",
+        "name": "men and women scientists",
+        "tag": ["thought"],
+        "related_url": [],
+        "related_material": [""],
+        "img": "",
+        "notes": [
+          "..."
+        ],
+        "icons": [""]
+      },
+      {
+        "nr": "14",
+        "name": "flat structure?",
+        "tag": ["thought", "workplace"],
+        "related_url": [],
+        "related_material": [""],
+        "img": "",
+        "notes": [
+          "..."
+        ],
+        "icons": [""]
+      },
+      {
+        "nr": "15",
+        "name": "i miss the anonymous users on the internet",
+        "tag": ["thought"],
+        "related_url": [],
+        "related_material": [""],
+        "img": "",
+        "notes": [
+          "..."
+        ],
+        "icons": [""]
+      },
+      {
+        "nr": "16",
+        "name": "is social science science?",
+        "tag": ["book", "thought"],
+        "related_url": ["https://www.amazon.com/Philosophy-Science-Very-Short-Introduction/dp/0198745583"],
+        "related_material": ["Philosophy of Science"],
+        "img": "images/philosophy_of_science_522.jpg",
+        "notes": [
+          "..."
+        ],
+        "icons": [""]
+       },
+      {
+        "nr": "17",
+        "name": "the one thing that I keep thinking about since the 1st semester in law school",
+        "tag": ["thought"],
+        "related_url": [],
+        "related_material": [""],
+        "img": "",
+        "notes": [
+          "..."
+        ],
+        "icons": [""]
+      },
+      {
+        "nr": "18",
+        "name": "on happiness ranking",
+        "tag": ["thought"],
+        "related_url": [],
+        "related_material": [""],
+        "img": "",
+        "notes": [
+          "..."
+        ],
+        "icons": [""]
+      },
+      {
+        "nr": "19",
+        "name": "does simple mother tongue make you think less?",
+        "tag": ["thought"],
+        "related_url": [],
+        "related_material": [""],
+        "img": "",
+        "notes": [
+          "..."
+        ],
+        "icons": [""]
+      },
+      {
+        "nr": "20",
+        "name": "math in diff. languages",
+        "tag": ["thought"],
+        "related_url": [],
+        "related_material": [""],
+        "img": "",
+        "notes": [
+          "..."
+        ],
+        "icons": [""]
+      }
+      ,
+      {
+        "nr": "21",
+        "name": "the business around numbers",
+        "tag": ["thought"],
+        "related_url": [],
+        "related_material": [""],
+        "img": "",
+        "notes": [
+          "..."
+        ],
+        "icons": [""]
+      },
+      {
+        "nr": "22",
+        "name": "you say data-driven, and you say you respond to stories",
+        "tag": ["thought","workplace"],
+        "related_url": [],
+        "related_material": [""],
+        "img": "",
+        "notes": [
+          "..."
+        ],
+        "icons": [""]
+      },
+      {
+        "nr": "23",
+        "name": "analyst at heart - the 18 degree crisis",
+        "tag": ["thought"],
+        "related_url": [],
+        "related_material": [""],
+        "img": "",
+        "notes": [
+          "..."
+        ],
+        "icons": [""]
+      },
+      {
+        "nr": "24",
+        "name": "economic power set women free?",
+        "tag": ["thought"],
+        "related_url": [],
+        "related_material": [""],
+        "img": "",
+        "notes": [
+          "..."
+        ],
+        "icons": [""]
+      },
+      {
+        "nr": "25",
+        "name": "on being competitive",
+        "tag": ["thought"],
+        "related_url": [],
+        "related_material": [""],
+        "img": "",
+        "notes": [
+          "..."
+        ],
+        "icons": [""]
+      },
+      {
+        "nr": "26",
+        "name": "Ship of Theseus",
+        "tag": ["thought"],
+        "related_url": [],
+        "related_material": [""],
+        "img": "",
+        "notes": [
+          "..."
+        ],
+        "icons": [""]
+      },
+      {
+        "nr": "28",
+        "name": "'... is good for ...' is not the conclusion you want to remember",
+        "tag": ["thought"],
+        "related_url": [],
+        "related_material": [""],
+        "img": "",
+        "notes": [
+          "..."
+        ],
+        "icons": [""]
+      },
+      {
+        "nr": "29",
+        "name": "when you don't speak - east&west interpretation",
+        "tag": ["thought"],
+        "related_url": [],
+        "related_material": [""],
+        "img": "",
+        "notes": [
+          "..."
+        ],
+        "icons": [""]
+      },
+      {
+        "nr": "30",
+        "name": "on creativity",
+        "tag": ["thought"],
+        "related_url": [],
+        "related_material": [""],
+        "img": "",
+        "notes": [
+          "..."
+        ],
+        "icons": [""]
+      },
+      {
+        "nr": "31",
+        "name": "am i different from a hammer?",
+        "tag": ["thought"],
+        "related_url": [],
+        "related_material": [""],
+        "img": "",
+        "notes": [
+          "..."
+        ],
+        "icons": [""]
+      },
+      {
+        "nr": "32",
+        "name": "trust, and validate",
+        "tag": ["thought"],
+        "related_url": [],
+        "related_material": [""],
+        "img": "",
+        "notes": [
+          "..."
+        ],
+        "icons": [""]
+      },
+      {
+        "nr": "33",
+        "name": "get stuck in what you are good at",
+        "tag": ["thought"],
+        "related_url": [],
+        "related_material": [""],
+        "img": "",
+        "notes": [
+          "..."
+        ],
+        "icons": [""]
+      },
+      {
+        "nr": "34",
+        "name": "no one is better than anyone vs. someone is always better than me",
+        "tag": ["thought"],
+        "related_url": [],
+        "related_material": [""],
+        "img": "",
+        "notes": [
+          "..."
+        ],
+        "icons": [""]
+      },
+      {
+        "nr": "35",
+        "name": "prime numbers",
+        "tag": ["thought"],
+        "related_url": [],
+        "related_material": [""],
+        "img": "",
+        "notes": [
+          "..."
+        ],
+        "icons": [""]
+      },
+      {
+        "nr": "36",
+        "name": "social bond at workplace",
+        "tag": ["thought", "workplace"],
+        "related_url": [],
+        "related_material": [""],
+        "img": "",
+        "notes": [
+          "..."
+        ],
+        "icons": [""]
+      },
+      {
+        "nr": "37",
+        "name": "...",
+        "tag": ["thought", "workplace"],
+        "related_url": [],
+        "related_material": [""],
+        "img": "",
+        "notes": [
+          "..."
+        ],
+        "icons": [""]
+      }
+]

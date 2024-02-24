@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Musing 0.1",
-  description: "this one works with data",
+  description: "this one works with json on me",
 };
 
 export default function RootLayout({
