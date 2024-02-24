@@ -34,7 +34,7 @@ function BlogView() {
       }, []); 
     //  const blogs: Blog[] = shuffle(blogJSON.slice()); // shuffle will trigger error because HTML rendered on server and on client won't match. so use state
   return (
-    <div>
+    <div className="blog-mode-wrapper">
         {blogs.map((item) => (
             <div className="note-item"  key={item.nr}>
             <p className="item-id-row">#<span id="item-id">{item.nr}</span></p>

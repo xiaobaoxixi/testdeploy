@@ -20,30 +20,30 @@ function Header() {
   const [runState] = useAtom(runStateAtom);
 
   return (
-    <div className="flex flex-row justify-between text-xl font-semibold">
-      <div className="flex-1 flex flex-col items-center">
+    <div className="chat-header-wrapper">
+      <div className="chat-header-item">
         <span>Assistant:</span>
-        <span className="text-blue-500 text-xs">{assistant?.id}</span>
+        <span className="chat-header-item-status">{assistant?.id}</span>
       </div>
-      <div className="flex-1 flex flex-col items-center">
+      <div className="chat-header-item">
         <span>File:</span>
-        <span className="text-blue-500 text-xs">{file}</span>
+        <span className="chat-header-item-status">{file}</span>
       </div>
-      <div className="flex-1 flex flex-col items-center">
+      <div className="chat-header-item">
         <span>Assistant File:</span>
-        <span className="text-blue-500 text-xs">{assistantFile}</span>
+        <span className="chat-header-item-status">{assistantFile}</span>
       </div>
-      <div className="flex-1 flex flex-col items-center">
+      <div className="chat-header-item">
         <span>Thread:</span>
-        <span className="text-blue-500 text-xs">{thread?.id}</span>
+        <span className="chat-header-item-status">{thread?.id}</span>
       </div>
-      <div className="flex-1 flex flex-col items-center">
+      <div className="chat-header-item">
         <span>Run:</span>
-        <span className="text-blue-500 text-xs">{run?.id}</span>
+        <span className="chat-header-item-status">{run?.id}</span>
       </div>
-      <div className="flex-1 flex flex-col items-center">
+      <div className="chat-header-item">
         <span>Run State:</span>
-        <span className="text-blue-500 text-xs">{runState}</span>
+        <span className="chat-header-item-status">{runState}</span>
       </div>
     </div>
   );

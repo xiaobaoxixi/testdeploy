@@ -1,51 +1,128 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-@layer base {
-  :root {
-    --background: 0 0% 100%;
-    --foreground: 240 10% 3.9%;
-
-    --card: 0 0% 100%;
-    --card-foreground: 240 10% 3.9%;
-
-    --popover: 0 0% 100%;
-    --popover-foreground: 240 10% 3.9%;
-
-    --primary: 217, 91%, 60%;
-    --primary-foreground: 210 40% 98%;
-
-    --secondary: 240 4.8% 95.9%;
-    --secondary-foreground: 240 5.9% 10%;
-
-    --muted: 240 4.8% 95.9%;
-    --muted-foreground: 240 3.8% 46.1%;
-
-    --accent: 240 4.8% 95.9%;
-    --accent-foreground: 240 5.9% 10%;
-
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 0 0% 98%;
-
-    --border: 240 5.9% 90%;
-    --input: 240 5.9% 90%;
-    --ring: 240 10% 3.9%;
-
-    --radius: 0.5rem;
-
-    --main-color:#474e85;
-  }
+:root {
+  --main-color:#474e85;
+  --scroll-bar-color:#dcdde6;
 }
 
-@layer base {
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  color: var(--main-color);
+  position: relative;
+}
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
   * {
-    @apply border-border;
+    scrollbar-width: auto;
+    scrollbar-color: var(--scroll-bar-color) #ffffff;
   }
-  body {
-    @apply bg-background text-foreground;
-    color:var(--main-color);
-    .note-item {margin:20px 0 20px; }
-    .mode-toggle {background-color:var(--main-color); color:white; height:48px; border-radius: 30px; margin: 30px 0;}
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 13px;
   }
+
+  *::-webkit-scrollbar-track {
+    background: #ffffff;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color:var(--scroll-bar-color);
+    border-radius: 10px;
+    border: 3px none #ffffff;
+  }
+.mode-toggle {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width:17ch;
+  background-color: transparent;
+  border: none;
+  text-align: left;
 }
+.main {
+  height:100vh;
+  display: flex;
+  flex-direction: column;
+  padding:50px 0;
+}
+
+.blog-mode-wrapper { 
+  flex-grow: 1;
+  overflow-y: auto;
+}
+.chat-mode-wrapper { 
+  flex-grow: 1;
+  overflow-y: auto;
+}
+.chat-container-outer-wrapper{
+  height: 100%;
+}
+.chat-container-wrapper {
+  height:100%;
+  padding:0 15vw 200px;
+}
+.chat-container-message-container{
+  height:100%;
+  overflow: scroll;
+}
+.chat-container-input-wrapper {
+  height:150px;
+  display: flex;
+  margin:15px 0 15px;
+}
+.chat-container-input { resize: none; padding:20px; font-size:16p; flex:1 0 auto; border: 2px solid var(--main-color); border-radius: 10px; margin-right:10px; }
+.chat-container-input-button {background-color: var(--main-color); color:#fff; padding:10px; border:none; border-radius: 10px;}
+.chat-header-wrapper {
+  position:fixed;
+  top:100px;
+  right:0;
+  padding:20px;
+  border:2px dotted var(--main-color);
+  background-color: #f7f7f7a7;
+  z-index: 1;
+}
+.chat-header-item {
+  margin-bottom: 10px;
+}
+.chat-header-item-status {
+  font-size:10px;
+}
+.chat-function-wrapper {
+  position: fixed;
+  bottom: 200px;
+  left:0;
+  background-color: #f7f7f7a7;
+  padding:20px;
+  z-index: 1;
+}
+.chat-function-item {margin-bottom: 10px;}
+.function-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+.fetching-status {
+  font-size: 12px;
+}
+
+.chat-bubble {
+  background-color: #f7f7f7;
+  padding:20px;
+  border-radius: 10px;
+  margin: 10px;
+  font-size: 14px;
+  width: 50vw;
+}
+
+.chat-bubble.user {
+  background-color: var(--main-color);
+  color: #fff;
+  float: right;
+}
+
+.chat-bubble.assistant {
+  float: left;
+}
+
+.note-item {margin:20px 0 20px; }
+

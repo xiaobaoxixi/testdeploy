@@ -107,9 +107,9 @@ function Assistant() {
   };
 
   return (
-    <div className="flex flex-col mb-4">
-      <h1 className="text-lg font-semibold">Assistant</h1>
-      <div className="flex flex-row gap-x-4 w-full">
+    <div className="chat-function-item">
+      <p className="function-title">Assistant</p>
+      <div className="">
         <Button onClick={handleCreate}>
           {creating ? "Creating..." : "Create"}
         </Button>

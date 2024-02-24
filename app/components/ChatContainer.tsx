@@ -73,20 +73,20 @@ function ChatContainer() {
   };
 
   return (
-    <div className="flex flex-col w-full h-full max-h-screen rounded-lg border-blue-200 border-solid border-2 p-10">
+    <div className="chat-container-wrapper">
       {/* Messages */}
-      <div className="flex flex-col h-full max-h-[calc(100vh-400px)] overflow-y-auto border-blue-200 border-solid border-2 p-6 rounded-lg">
-        {fetching && <div className="m-auto font-bold">Fetching messages.</div>}
+      <div className="chat-container-message-container">
+        {fetching && <div className="fetching-status">Fetching messages.</div>}
         {!fetching && messages.length === 0 && (
-          <div className="m-auto font-bold">No messages found for thread.</div>
+          <div className="fetching-status">No messages found for thread.</div>
         )}
         {messages.map((message) => (
           <div
             key={message.id}
-            className={`px-4 py-2 mb-3 rounded-lg text-white w-fit text-lg ${
+            className={`chat-bubble ${
               message.role === "user"
-                ? " bg-blue-500 ml-auto text-right"
-                : " bg-gray-500"
+                ? " user"
+                : " assistant"
             }`}
           >
             {message.content[0].type === "text"
@@ -97,16 +97,15 @@ function ChatContainer() {
       </div>
 
       {/* Input */}
-      <div className="flex flex-row w-full mt-5">
-        <input
-          type="text"
-          className="flex-grow rounded-lg border-blue-200 border-solid border-2 p-2"
+      <div className="chat-container-input-wrapper">
+        <textarea
+          className="chat-container-input"
           value={message}
           onChange={(e) => setMessage(e.target.value)}
         />
         <button
           disabled={!thread || sending || message === ""}
-          className="rounded-lg bg-blue-500 text-white p-2 ml-4 disabled:bg-blue-200"
+          className="chat-container-input-button"
           onClick={() => {
             sendMessage();
           }}

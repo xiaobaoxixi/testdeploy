@@ -64,9 +64,9 @@ function Thread() {
   };
 
   return (
-    <div className="flex flex-col mb-4">
-      <h1 className="text-lg font-semibold">Thread</h1>
-      <div className="flex flex-row gap-x-4 w-full">
+    <div className="chat-function-item">
+      <p className="function-title">Thread</p>
+      <div className="">
         <Button onClick={handleCreate}>
           {creating ? "Creating..." : "Create"}
         </Button>

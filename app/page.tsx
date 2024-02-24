@@ -60,25 +60,23 @@ export default function Home() {
   }, []);
 
   return (
-    <main className="flex flex-col">
+    <main className="main">
       <button className="mode-toggle" onClick={() => setMode(mode === 'choose and read' ? 'chat with you' : 'choose and read')}>
         I would rather {mode}
       </button>
       {mode !== 'choose and read' ? (
         <Blog />
         ) : (
-       <div>
+       <div className="chat-mode-wrapper">
           <Header />
-          <div className="flex flex-col mt-20 gap-x-10">
-            <div className="flex flex-col w-full">
-              <Assistant />
-              <AssistantFile />
-              <Thread />
-              <Run />
-            </div>
-            <div className="w-full">
-              <ChatContainer />
-            </div>
+          <div className="chat-function-wrapper">
+            <Assistant />
+            <AssistantFile />
+            <Thread />
+            <Run />
+          </div>
+          <div className="chat-container-outer-wrapper">
+            <ChatContainer />
           </div>
         </div>
       )}

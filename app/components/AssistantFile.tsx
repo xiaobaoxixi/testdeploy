@@ -155,9 +155,9 @@ function AssistantFile() {
   };
 
   return (
-    <div className="flex flex-col mb-4">
-      <h1 className="text-lg font-semibold">Assistant File</h1>
-      <div className="flex flex-row gap-x-4 w-full">
+    <div className="chat-function-item">
+      <p className="function-title">Assistant File</p>
+      <div className="">
         <input
           type="file"
           ref={fileInputRef}
