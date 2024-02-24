@@ -44,8 +44,8 @@ function ChatContainer() {
       }
     };
 
-    fetchMessages();
-  }, [thread]);
+    fetchMessages();// eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [thread]); 
 
   const sendMessage = async () => {
     if (!thread) return;

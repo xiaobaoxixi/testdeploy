@@ -56,13 +56,13 @@ export default function Home() {
       if (localRunState && isValidRunState(localRunState)) {
         setRunState(localRunState);
       }
-    }
+    }// eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return (
     <main className="flex flex-col">
       <button className="mode-toggle" onClick={() => setMode(mode === 'choose and read' ? 'chat with you' : 'choose and read')}>
-        I'd rather {mode}
+        I would rather {mode}
       </button>
       {mode !== 'choose and read' ? (
         <Blog />
