@@ -168,7 +168,7 @@ function AssistantFile() {
           onClick={() => fileInputRef.current?.click()}
           disabled={uploading}
         >
-          {uploading ? "Uploading..." : "Upload"}
+          {uploading ? "Uploading..." : "JSON"}
         </Button>
         <Button onClick={handleCreate} disabled={!assistant || !file}>
           {creating ? "Creating..." : "Create"}
