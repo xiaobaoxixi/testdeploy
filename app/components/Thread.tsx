@@ -65,10 +65,10 @@ function Thread() {
 
   return (
     <div className="chat-function-item">
-      <p className="function-title">Thread</p>
-      <div className="">
+{/*       <p className="function-title">Thread</p>
+ */}      <div className="">
         <Button onClick={handleCreate}>
-          {creating ? "Creating..." : "Create"}
+          {creating ? "Creating..." : "New Thread"}
         </Button>
         <Button onClick={handleDelete} disabled={!thread}>
           {deleting ? "Deleting..." : "Delete"}

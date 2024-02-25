@@ -139,13 +139,13 @@ function Run() {
 
   return (
     <div className="chat-function-item">
-      <p className="function-title">Run</p>
-      <div className="flex flex-row gap-x-4 w-full">
+{/*       <p className="function-title">Run</p>
+ */}      <div className="flex flex-row gap-x-4 w-full">
         <Button
           onClick={handleCreate}
           disabled={creating || !assistant || !thread}
         >
-          {creating ? "Creating..." : "Create"}
+          {creating ? "Creating..." : "Run"}
         </Button>
         <Button
           onClick={handleCancel}

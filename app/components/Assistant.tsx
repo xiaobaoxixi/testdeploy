@@ -108,19 +108,19 @@ function Assistant() {
 
   return (
     <div className="chat-function-item">
-      <p className="function-title">Assistant</p>
-      <div className="">
+{/*       <p className="function-title">Assistant</p>
+ */}      <div className="">
         <Button onClick={handleCreate}>
-          {creating ? "Creating..." : "Create"}
+          {creating ? "Creating..." : "Create Assistant"}
         </Button>
-        <Button onClick={handleModify} disabled={!assistant || !file}>
+{/*         <Button onClick={handleModify} disabled={!assistant || !file}>
           {modifying ? "Modifying..." : "Modify"}
         </Button>
-        <Button onClick={handleList}>{listing ? "Listing..." : "List"}</Button>
-        <Button onClick={handleDelete} disabled={!assistant}>
+ */}        <Button onClick={handleList}>{listing ? "Listing..." : "List"}</Button>
+{/*         <Button onClick={handleDelete} disabled={!assistant}>
           {deleting ? "Deleting..." : "Delete"}
         </Button>
-      </div>
+ */}      </div>
     </div>
   );
 }

@@ -110,7 +110,6 @@ function ChatContainer() {
             sendMessage();
           }}
         >
-          Send
         </button>
       </div>
     </div>

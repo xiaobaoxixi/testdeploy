@@ -22,6 +22,7 @@ function shuffle(array: any[]) {
   }
 
 function BlogView() {
+    const [mode, setMode] = useState('list'); 
     const [blogs, setBlogs] = useState<Blog[]>([]); // Initialize state for blogs
     useEffect(() => {
         const fetchData = async () => {
@@ -34,9 +35,9 @@ function BlogView() {
       }, []); 
     //  const blogs: Blog[] = shuffle(blogJSON.slice()); // shuffle will trigger error because HTML rendered on server and on client won't match. so use state
   return (
-    <div className="blog-mode-wrapper">
+    <div className={`blog-mode-wrapper ${mode}`}>
         {blogs.map((item) => (
-            <div className="note-item"  key={item.nr}>
+            <div className="note-item"  key={item.nr} onClick={() => setMode(mode === 'list' ? 'item' : 'list')}>
             <p className="item-id-row">#<span id="item-id">{item.nr}</span></p>
             <h3 className="note-title">{item.name}</h3>
             </div>

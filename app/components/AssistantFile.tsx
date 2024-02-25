@@ -156,8 +156,8 @@ function AssistantFile() {
 
   return (
     <div className="chat-function-item">
-      <p className="function-title">Assistant File</p>
-      <div className="">
+{/*       <p className="function-title">Assistant File</p>
+ */}      <div className="">
         <input
           type="file"
           ref={fileInputRef}

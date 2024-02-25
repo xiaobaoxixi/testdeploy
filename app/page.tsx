@@ -20,7 +20,7 @@ import Run from "./components/Run";
 import ChatContainer from "./components/ChatContainer";
 
 export default function Home() {
-  const [mode, setMode] = useState('chat with you'); 
+  const [mode, setMode] = useState('list'); 
   // Atom State
   const [, setAssistant] = useAtom(assistantAtom);
   const [, setFile] = useAtom(fileAtom);
@@ -60,11 +60,26 @@ export default function Home() {
   }, []);
 
   return (
-    <main className="main">
-      <button className="mode-toggle" onClick={() => setMode(mode === 'choose and read' ? 'chat with you' : 'choose and read')}>
-        I would rather {mode}
-      </button>
-      {mode !== 'choose and read' ? (
+    <main className= {`main ${mode}`}>
+      <div className="shape-container">
+        <div className="up-wrapper">
+          <div className="up">
+
+          </div>
+        </div>
+        <div className="down-wrapper">
+          <div className="down"></div>
+          <div className="down-inside"></div>
+          <div className="down2"></div>
+          <div className="down2-inside"></div>
+        </div>
+      </div>
+      <div className="logo-wrapper">
+        <a className="logo" href="/"><h1>Musing Drops <span className="dot">.</span></h1></a>
+        <p className="intro">From simple moments spring ideas, each a portal to my pondering. </p>
+      </div>
+      <button className= "mode-toggle" onClick={() => setMode(mode === 'list' ? 'chat' : 'list')}></button>
+      {mode === 'list' ? (
         <Blog />
         ) : (
        <div className="chat-mode-wrapper">
@@ -80,7 +95,9 @@ export default function Home() {
           </div>
         </div>
       )}
-      <p></p>
+      <footer className="footer">
+        <p>&copy; 2024 MusingDrops. All rights reserved for this beholder of a curious mind.</p>
+      </footer>
     </main>
   );
 }
